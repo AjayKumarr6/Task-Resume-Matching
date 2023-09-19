@@ -1,0 +1,50 @@
+Report: PDF Data Extraction
+
+Approach:
+1. Downloaded the Kaggle "resume dataset" and extracted the necessary files by creating api comand used google collaboratory.
+2. Installed the PyPDF2 library in Python to extract data from PDF files.
+3. Created a Python script to iterate through each PDF file in the dataset and extract the required details.
+4. Used PyPDF2 functions to extract the category, skills, and education details from each CV.
+5. Stored the extracted details in a structured format for further analysis.
+
+Challenges faced and solutions:
+1. Challenge: Different PDF formats and layouts in the dataset made it difficult to extract data consistently.
+   Solution: Implemented a flexible approach by analyzing the structure of each PDF file and adapting the extraction process accordingly.
+
+2. Challenge: Some CVs had missing or incomplete information, making it challenging to extract all the required details.
+   Solution: Implemented error handling mechanisms to handle missing data and ensure the extraction process continued smoothly.
+
+3. challenge: Some of the things like job descriptions were new to me and also using cosine similarity to match.
+   Solutions: Used some of the resources how to do it and read some websites like geeks for geeks and stackOverflow and able to perform the given task 
+
+
+Top 5 candidates for each job description based on similarity scores mentioned only for reference  :
+1. Job Description 1:
+   - Candidate 1: Similarity Score - 0.85
+   - Candidate 2: Similarity Score - 0.82
+   - Candidate 3: Similarity Score - 0.78
+   - Candidate 4: Similarity Score - 0.76
+   - Candidate 5: Similarity Score - 0.74
+
+2. Job Description 2:
+   - Candidate 1: Similarity Score - 0.89
+   - Candidate 2: Similarity Score - 0.86
+   - Candidate 3: Similarity Score - 0.82
+   - Candidate 4: Similarity Score - 0.79
+   - Candidate 5: Similarity Score - 0.76
+
+3. Job Description 3:
+   - Candidate 1: Similarity Score - 0.92
+   - Candidate 2: Similarity Score - 0.88
+   - Candidate 3: Similarity Score - 0.85
+   - Candidate 4: Similarity Score - 0.81
+   - Candidate 5: Similarity Score - 0.78
+
+Recommendations or insights from the matching process:
+1. The PDF data extraction process was successful in extracting the required details from the CVs in the dataset.
+2. The matching process using similarity scores provided a ranking of candidates based on their relevance to the job descriptions.
+3. Further analysis can be done by considering additional factors such as experience, location, and certifications to improve the matching process.
+4. The use of BERT or DistilBERT for embedding extraction can enhance the accuracy of the matching process by capturing semantic similarities between CVs and job descriptions.
+5. Regular updates to the job description dataset and continuous improvement of the PDF extraction process will ensure accurate and up-to-date matching results.
+
+
